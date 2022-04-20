@@ -1,17 +1,3 @@
-/** Create a Leaflet map that reads data from Google Sheets. Each row in the
-    sheet will appear as a marker on the map. When the marker is clicked, a
-    popup will appear showing information about the location, taken from the
-    columns of the spreadsheet.  
-    
-    This script assumes the Google Sheet has the following columns. These match
-    the attribute names used for the Story Map Tour template in ArcGIS Online.
-    
-    name        A short name for the location, to appear as the popup title.
-    description A sentence or two describing the location in more detail.
-    lat         Latitude in decimal degrees
-    long        Longitude in decimal degrees
-    pic_url     The URL to an image that will be displayed in the popup.
- */
 function createPhotoMap () {
   // URL of a Google Sheets spreadsheet output as CSV
   var csvUrl = https://docs.google.com/spreadsheets/d/e/2PACX-1vTnmEGjwsiQe8_E5gaEQ2V7MdeI-Bg05WMJvhU3nAWATAVQBQSvyJLEBbKxPHPjq-tDgeYpdGps9Nzz/pub?gid=0&single=true&output=csv';
