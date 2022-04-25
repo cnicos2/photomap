@@ -33,7 +33,7 @@ function createPhotoMap () {
           name: place.name,
           description: place.description,
           pic_url: place.pic_url
-        };;
+        };
         
       } // end of for (row in csv.data) {...
       
